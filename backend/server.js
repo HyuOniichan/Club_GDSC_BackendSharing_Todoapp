@@ -13,7 +13,7 @@ const route = require('./routes/')
 route(app)
 
 // Connect to db 
-mongoose.connect("mongodb+srv://chuahetheky:todolist@todolist.shejx.mongodb.net/?retryWrites=true&w=majority&appName=Todolist")
+mongoose.connect("")
 	.then(() => console.log("Connected"))
 	.catch(err => console.log(err))
 
